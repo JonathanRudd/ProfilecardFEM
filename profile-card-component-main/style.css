@@ -1,0 +1,34 @@
+:root{
+	font-size: 18px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	background: hsl(185, 75%, 39%);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+
+.card{
+	width: 350px;
+	border-radius: 20px;
+	background: white;
+	
+
+}
+
+.card-header{
+	background-image: url(images/bg-pattern-card.svg);
+	background-size: cover;
+	height: 150px;
+
+}
